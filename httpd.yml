@@ -1,0 +1,8 @@
+---
+- name: installation of httpd
+  hosts: all
+  tasks:
+   - name: Just installation
+   	 yum:
+	    name: httpd
+	    state: present
