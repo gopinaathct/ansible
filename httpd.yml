@@ -2,7 +2,7 @@
 - name: installation of httpdsdfasd
   hosts: all
   tasks:
-   - name: Just installationsfasdf
+   - name: Just installationsfasdfs
    	 yum:
 	    name: httpd
 	    state: present
