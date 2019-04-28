@@ -2,7 +2,7 @@
 - name: installation of httpd
   hosts: all
   tasks:
-   - name: Just installation
+   - name: Just installations
    	 yum:
 	    name: httpd
 	    state: present
